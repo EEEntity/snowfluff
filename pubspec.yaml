@@ -25,6 +25,7 @@ dependencies:
   ncm_api:
     path: ../ncm-api-dart
   path_provider: ^2.1.5
+  qr_flutter: ^4.1.0
   riverpod_annotation: ^4.0.2
   scrollable_positioned_list: ^0.3.8
 
