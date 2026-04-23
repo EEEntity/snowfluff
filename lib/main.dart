@@ -108,7 +108,7 @@ class AppStartup {
   AppStartup._();
   // 提前发起，供_initApi和main()共享，不重复调用
   static final Future<String> appDocDirPath =
-      getApplicationDocumentsDirectory().then((d) => d.path);
+      getApplicationSupportDirectory().then((d) => d.path);
   static final Future<void> apiReady = _initApi();
   static final Future<void> audioReady = _initAudio();
   static Future<void> _initApi() async {

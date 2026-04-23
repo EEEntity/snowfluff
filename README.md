@@ -11,14 +11,13 @@
  - Linux桌面(还没做[MPRIS](https://wiki.archlinux.org/title/MPRIS))
 
 ## 功能
- - cookies登录
+ - 手机短信/二维码/cookies登录
  - 发现页：每日推荐/私人FM模式
  - 搜索歌手/专辑/歌单/单曲
  - 音质选择
 
 ## 需要完善
  - 应用图标
- - 二维码/手机号登录
  - 桌面端MPRIS/快捷键监听
  - library页面图像
  - 刷新cookies避免过期
